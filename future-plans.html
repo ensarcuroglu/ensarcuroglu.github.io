@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gelecek Planları</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="gallery.html">Galeri</a>
+      <a href="music.html">Sevdiğimiz Şarkılar</a>
+      <a href="future-plans.html" class="active">Gelecek Planları</a>
+      <a href="quiz.html">İlişki Quiz</a>
+      <a href="riddles.html">Bilmeceler</a>
+      <a href="future-letters.html">Geleceğe Mektuplar</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Gelecek Planlarımız</h1>
+    <p>Birlikte yapmayı düşündüğümüz şeylerin listesi:</p>
+
+    <div class="card">
+      <h2>1. Avrupa Turu</h2>
+      <p>İlk olarak İtalya'dan başlayarak, trenle Avrupa'yı gezmek.</p>
+      <button class="complete-btn">Tamamlandı</button>
+    </div>
+    <div class="card">
+      <h2>2. Birlikte Kış Tatiline Gitmek</h2>
+      <p>Güzel bir dağ otelinde veya bungalovlarda kalıp kayak yapmak.</p>
+      <button class="complete-btn">Tamamlandı</button>
+    </div>
+    <div class="card">
+      <h2>3. Kendi Evimizi Tasarlamak</h2>
+      <p>Gelecekteki evimizin dekorasyonunu beraber planlamak.</p>
+      <button class="complete-btn">Tamamlandı</button>
+    </div>
+    <div class="card">
+      <h2>4. Safari Macerası</h2>
+      <p>Afrika'da bir safariye katılarak vahşi yaşamı gözlemleyin.</p>
+      <button class="complete-btn">Tamamlandı</button>
+    </div>
+    <div class="card">
+      <h2>5. Dans Kursu</h2>
+      <p>Tango, salsa ya da vals öğrenmek harika bir çift aktivitesi olabilir.</p>
+      <button class="complete-btn">Tamamlandı</button>
+    </div>
+    <div class="card">
+      <h2>6. Evcil Hayvan Sahiplenmek</h2>
+      <p>Birlikte bir köpek, kedi ya da kuş sahiplenip ona beraber bakabilirsiniz.</p>
+      <button class="complete-btn">Tamamlandı</button>
+    </div>
+    
+
+
+
+
+
+
+
+    <!-- Yeni plan ekleme formu -->
+  <div class="add-plan">
+    <h3>Yeni Plan Ekle</h3>
+    <form id="add-plan-form">
+      <label for="plan-title">Başlık:</label>
+      <input type="text" id="plan-title" required />
+      
+      <label for="plan-description">Açıklama:</label>
+      <textarea id="plan-description" rows="3" required></textarea>
+      
+      <button type="submit">Ekle</button>
+    </form>
+  </div>
+</div>
+
+    <!-- İstediğin kadar plan ekle -->
+  </div>
+
+  <footer>
+    <p>Tasarım & Kodlama: Ensar Sami Curoğlu</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
