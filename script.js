@@ -181,7 +181,7 @@ const quizData = [
   
     // Mevcut ve yeni eklenen tamamlandı butonlarını işlemek
     container.addEventListener("click", (e) => {
-      if (e.target.classList.contains("complete-btn")) {
+      if (e.target.classList.contains("completed")) {
         const card = e.target.parentElement;
         card.classList.toggle("completed");
   
