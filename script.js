@@ -36,11 +36,6 @@ const quizData = [
       question: "Sence bir gün seni en mutlu edecek hayalim ne?",
       answers: ["Dünyayı gezmek", "Birlikte yaşlanmak", "Büyük bir ev sahibi olmak", "Hayalimizdeki işi yapmak"],
       correct: 0 // Dünyayı gezmek
-    },
-    {
-      question: "Sence bir gün seni en mutlu edecek hayalim ne?",
-      answers: ["Dünyayı gezmek", "Birlikte yaşlanmak", "Büyük bir ev sahibi olmak", "Hayalimizdeki işi yapmak"],
-      correct: 0 // Dünyayı gezmek
     }
   ];
   
